@@ -111,8 +111,8 @@ ul.navbar-nav li a:hover{
     padding: 2rem;
 }
 #service .service-item img {
-	height: 10rem;
-	width: 10rem;
+	height: 12rem;
+	width: inherit;
 	border-radius: inherit;
 	margin: 0;
 }
@@ -366,4 +366,11 @@ footer span {
 	font-weight: 500;
 	letter-spacing: .1rem;
 	line-height: 4rem;
+}
+footer span a{ 
+	color: #5ad2eb;
+	transition: all .5s;
+}
+footer span a:hover{
+	transform: scale(1.2);
 }
