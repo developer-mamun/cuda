@@ -54,7 +54,7 @@ ul.navbar-nav li a:hover{
 }
 
 /*==================================
-        here section css 
+        hero section css 
 ====================================*/
 .hero{
     background-color: #7A458E;
@@ -71,6 +71,7 @@ ul.navbar-nav li a:hover{
     padding: 1rem 4rem;
     font-size: 2rem;
     border-color: #EB7D4B !important;
+	text-transform: uppercase;
 }
 
 
