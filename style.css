@@ -8,7 +8,7 @@ html{
 }
 body{
     font-family: 'Titillium Web', sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 2.8rem;
 }
 img{
@@ -39,7 +39,7 @@ ul.navbar-nav li a{
     display: block;
     font-weight: 400;
     padding: .7rem 2rem;
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     border-radius: .5rem;
 }
 ul.navbar-nav li a:hover{
@@ -73,6 +73,9 @@ ul.navbar-nav li a:hover{
     border-color: #EB7D4B !important;
 	text-transform: uppercase;
 }
+.hero .btn:hover{
+	transform: translateY(-.3rem);
+}
 
 
 /*==================================
@@ -81,6 +84,9 @@ ul.navbar-nav li a:hover{
 
 #service{
     background-color: #17c2a4;
+}
+#service .sec-titel{
+	margin-bottom: 4rem;
 }
 .sec-titel h2 {
 	font-size: 4rem;
@@ -125,7 +131,7 @@ ul.navbar-nav li a:hover{
     margin: 20px 0;
 }
 .service-item p {
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	font-weight: 300;
 	margin-top: 2rem;
 	color: #fff;
@@ -137,6 +143,9 @@ ul.navbar-nav li a:hover{
 
 #team{
     background-color: #e7f1f8;
+}
+#team .sec-titel{
+	margin-bottom: 4rem;
 }
 #team .sec-titel h2,
 #skill .sec-titel h2{
@@ -196,7 +205,9 @@ ul.navbar-nav li a:hover{
 /*===================================
         skill section css 
 ====================================*/
-
+#skill .sec-titel{
+	margin-bottom: 4rem;
+}
 #skill svg.radial-progress circle {
     stroke-width: 7;
 }
@@ -264,7 +275,9 @@ ul.navbar-nav li a:hover{
 /*==================================
         about section css 
 ===================================*/
-
+.about .sec-titel{
+	margin-bottom: 4rem;
+}
 .about{
     background-color: #d85589;
 }
